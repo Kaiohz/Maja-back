@@ -1,0 +1,14 @@
+JarIndex-Version: 1.0
+
+vertx-lang-scala-on-the-fly_2.12-3.5.0.jar
+META-INF
+META-INF/maven
+META-INF/maven/io.vertx
+META-INF/maven/io.vertx/vertx-lang-scala-on-the-fly_2.12
+io
+io/vertx
+io/vertx/lang
+io/vertx/lang/scala
+io/vertx/lang/scala/onthefly
+.gitkeep
+

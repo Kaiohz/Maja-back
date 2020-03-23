@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Maven-Artifact-Id: vertx-lang-scala-on-the-fly_2.12
+Built-By: julien
+Maven-Version: 3.5.0
+Created-By: Apache Maven 3.5.0
+Build-Jdk: 1.8.0_112
+Maven-Group-Id: io.vertx
+

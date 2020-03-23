@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="55d95b2f-5ebc-4cd7-95c9-3089488dbc12" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="maja-backend" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="maja-backend" type="f1a62948:ProjectNode" />
+                <item name="maja-backend" type="2d1252cf:ModuleNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1ZXI5uZP4XmBHhOpEEdD1wTHxDk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/project" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/project" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MajaServer" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="MajaServer" />
+      <module name="maja-backend" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MajaServer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="maja-backend" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="maja-backend [file:/home/pi/IdeaProjects/maja-backend/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="maja-backend-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/build.sbt" value="1934981568" />
+        <entry key="$PROJECT_DIR$/project/Build.scala" value="4008879411" />
+        <entry key="$PROJECT_DIR$/project/Dependencies.scala" value="3628721596" />
+        <entry key="$PROJECT_DIR$/project/Docker.scala" value="3632445631" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="1085431145" />
+        <entry key="$PROJECT_DIR$/project/plugins.sbt" value="1324715416" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../vertx-sbt-starter" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="55d95b2f-5ebc-4cd7-95c9-3089488dbc12" name="Default Changelist" comment="" />
+      <created>1584978831540</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584978831540</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1636" height="267" key="GridCell.Tab.0.bottom" timestamp="1584981404948">
+      <screen x="0" y="36" width="1680" height="1014" />
+    </state>
+    <state width="1636" height="267" key="GridCell.Tab.0.bottom/0.36.1680.1014@0.36.1680.1014" timestamp="1584981404948" />
+    <state width="1636" height="267" key="GridCell.Tab.0.center" timestamp="1584981404946">
+      <screen x="0" y="36" width="1680" height="1014" />
+    </state>
+    <state width="1636" height="267" key="GridCell.Tab.0.center/0.36.1680.1014@0.36.1680.1014" timestamp="1584981404946" />
+    <state width="1636" height="267" key="GridCell.Tab.0.left" timestamp="1584981404945">
+      <screen x="0" y="36" width="1680" height="1014" />
+    </state>
+    <state width="1636" height="267" key="GridCell.Tab.0.left/0.36.1680.1014@0.36.1680.1014" timestamp="1584981404945" />
+    <state width="1636" height="267" key="GridCell.Tab.0.right" timestamp="1584981404947">
+      <screen x="0" y="36" width="1680" height="1014" />
+    </state>
+    <state width="1636" height="267" key="GridCell.Tab.0.right/0.36.1680.1014@0.36.1680.1014" timestamp="1584981404947" />
+  </component>
+</project>

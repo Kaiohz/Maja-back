@@ -1,0 +1,26 @@
+JarIndex-Version: 1.0
+
+vertx-bridge-common-3.5.0.jar
+META-INF
+META-INF/maven
+META-INF/maven/io.vertx
+META-INF/maven/io.vertx/vertx-bridge-common
+io
+io/vertx
+io/vertx/ext
+io/vertx/ext/bridge
+io/vertx/groovy
+io/vertx/groovy/ext
+io/vertx/groovy/ext/bridge
+io/vertx/kotlin
+io/vertx/kotlin/ext
+io/vertx/kotlin/ext/bridge
+io/vertx/reactivex
+io/vertx/reactivex/ext
+io/vertx/reactivex/ext/bridge
+io/vertx/rxjava
+io/vertx/rxjava/ext
+io/vertx/rxjava/ext/bridge
+vertx-bridge-common-js
+vertx-bridge-common
+

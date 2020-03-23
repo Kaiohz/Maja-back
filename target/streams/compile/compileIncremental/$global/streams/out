@@ -1,0 +1,46 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(/home/pi/IdeaProjects/maja-backend/src/main/scala/MajaServer.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/home/pi/IdeaProjects/maja-backend/src/main/scala/MajaServer.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/pi/IdeaProjects/maja-backend/src/main/scala/MajaServer.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/pi/IdeaProjects/maja-backend/src/main/scala/MajaServer.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /home/pi/IdeaProjects/maja-backend/target/scala-2.12/classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.18:component from component compiler for Scala 2.12.4[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.18:component from component compiler for Scala 2.12.4[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 4fb54b, interfacing (CompilerInterface) with Scala compiler version 2.12.4[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-unchecked[0m
+[0m[[0mdebug[0m] [0m	-deprecation[0m
+[0m[[0mdebug[0m] [0m	-language:_[0m
+[0m[[0mdebug[0m] [0m	-target:jvm-1.8[0m
+[0m[[0mdebug[0m] [0m	-encoding[0m
+[0m[[0mdebug[0m] [0m	UTF-8[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-8-openjdk-armhf/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-armhf/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-armhf/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-armhf/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-armhf/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-armhf/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-armhf/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-armhf/jre/classes:/home/pi/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.4.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/pi/IdeaProjects/maja-backend/target/scala-2.12/classes:/home/pi/.ivy2/cache/io.vertx/vertx-lang-scala_2.12/jars/vertx-lang-scala_2.12-3.5.0.jar:/home/pi/.ivy2/cache/io.vertx/vertx-core/jars/vertx-core-3.5.0.jar:/home/pi/.ivy2/cache/io.netty/netty-common/jars/netty-common-4.1.15.Final.jar:/home/pi/.ivy2/cache/io.netty/netty-buffer/jars/netty-buffer-4.1.15.Final.jar:/home/pi/.ivy2/cache/io.netty/netty-transport/jars/netty-transport-4.1.15.Final.jar:/home/pi/.ivy2/cache/io.netty/netty-resolver/jars/netty-resolver-4.1.15.Final.jar:/home/pi/.ivy2/cache/io.netty/netty-handler/jars/netty-handler-4.1.15.Final.jar:/home/pi/.ivy2/cache/io.netty/netty-codec/jars/netty-codec-4.1.15.Final.jar:/home/pi/.ivy2/cache/io.netty/netty-handler-proxy/jars/netty-handler-proxy-4.1.15.Final.jar:/home/pi/.ivy2/cache/io.netty/netty-codec-socks/jars/netty-codec-socks-4.1.15.Final.jar:/home/pi/.ivy2/cache/io.netty/netty-codec-http/jars/netty-codec-http-4.1.15.Final.jar:/home/pi/.ivy2/cache/io.netty/netty-codec-http2/jars/netty-codec-http2-4.1.15.Final.jar:/home/pi/.ivy2/cache/io.netty/netty-resolver-dns/jars/netty-resolver-dns-4.1.15.Final.jar:/home/pi/.ivy2/cache/io.netty/netty-codec-dns/jars/netty-codec-dns-4.1.15.Final.jar:/home/pi/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.9.0.jar:/home/pi/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.9.0.jar:/home/pi/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.9.0.jar:/home/pi/.ivy2/cache/io.vertx/vertx-lang-scala-on-the-fly_2.12/jars/vertx-lang-scala-on-the-fly_2.12-3.5.0.jar:/home/pi/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.12.4.jar:/home/pi/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.4.jar:/home/pi/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.6.jar:/home/pi/.ivy2/cache/io.vertx/vertx-web-scala_2.12/jars/vertx-web-scala_2.12-3.5.0.jar:/home/pi/.ivy2/cache/io.vertx/vertx-web/jars/vertx-web-3.5.0.jar:/home/pi/.ivy2/cache/io.vertx/vertx-auth-common/jars/vertx-auth-common-3.5.0.jar:/home/pi/.ivy2/cache/io.vertx/vertx-bridge-common/jars/vertx-bridge-common-3.5.0.jar:/home/pi/.ivy2/cache/io.vertx/vertx-codegen/jars/vertx-codegen-3.5.0.jar:/home/pi/.ivy2/cache/org.mvel/mvel2/jars/mvel2-2.3.1.Final.jar[0m
+[0m[[0mdebug[0m] [0mScala compilation took 11.884110711 s[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/pi/IdeaProjects/maja-backend/src/main/scala/MajaServer.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/pi/IdeaProjects/maja-backend/src/main/scala/MajaServer.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/pi/IdeaProjects/maja-backend/src/main/scala/MajaServer.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/pi/IdeaProjects/maja-backend/src/main/scala/MajaServer.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/pi/IdeaProjects/maja-backend/src/main/scala/MajaServer.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	executionContext.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] New invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Previously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
+[0m[[0mdebug[0m] [0m[naha] All newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m
