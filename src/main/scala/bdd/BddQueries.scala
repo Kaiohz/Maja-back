@@ -10,4 +10,16 @@ object BddQueries {
     "user (username,password)" +
     "VALUES (?, ?)"
 
+  val updatePassword = "UPDATE user " +
+    "SET password = ? " +
+    "WHERE username = ?"
+
+  val updateLogin = "UPDATE user " +
+    "SET username = ? " +
+    "WHERE username = ?"
+
+  val delUser = "DELETE " +
+    "FROM user " +
+    "WHERE username = ?"
+
 }

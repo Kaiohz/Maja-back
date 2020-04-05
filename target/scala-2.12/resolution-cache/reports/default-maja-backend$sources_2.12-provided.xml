@@ -7,17 +7,17 @@
 		revision="0.1-SNAPSHOT"
 		conf="provided"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, scoveragePlugin"
-		date="20200323181147"/>
+		date="20200402150727"/>
 	<dependencies>
 		<module organisation="io.vertx" name="vertx-codegen">
-			<revision name="3.5.0" status="release" pubdate="20171017154808" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+			<revision name="3.9.0" status="release" pubdate="20200330090015" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
-				<metadata-artifact status="no" details="" size="22400" time="0" location="/home/pi/.ivy2/cache/io.vertx/vertx-codegen/ivy-3.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/vertx/vertx-codegen/3.5.0/vertx-codegen-3.5.0.pom"/>
-				<caller organisation="default" name="maja-backend$sources_2.12" conf="provided" rev="3.5.0" rev-constraint-default="3.5.0" rev-constraint-dynamic="3.5.0" callerrev="0.1-SNAPSHOT"/>
+				<metadata-artifact status="no" details="" size="26356" time="0" location="/home/pi/.ivy2/cache/io.vertx/vertx-codegen/ivy-3.9.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/vertx/vertx-codegen/3.9.0/vertx-codegen-3.9.0.pom"/>
+				<caller organisation="default" name="maja-backend$sources_2.12" conf="provided" rev="3.9.0" rev-constraint-default="3.9.0" rev-constraint-dynamic="3.9.0" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="vertx-codegen" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="97673" time="0" location="/home/pi/.ivy2/cache/io.vertx/vertx-codegen/srcs/vertx-codegen-3.5.0-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/vertx/vertx-codegen/3.5.0/vertx-codegen-3.5.0-sources.jar"/>
+					<artifact name="vertx-codegen" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="98078" time="0" location="/home/pi/.ivy2/cache/io.vertx/vertx-codegen/srcs/vertx-codegen-3.9.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/vertx/vertx-codegen/3.9.0/vertx-codegen-3.9.0-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -35,37 +35,37 @@
 			</revision>
 		</module>
 		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
-			<revision name="2.7.4" status="release" pubdate="20160429174620" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+			<revision name="2.10.2" status="release" pubdate="20200105031424" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="7835" time="0" location="/home/pi/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.7.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.7.4/jackson-databind-2.7.4.pom"/>
-				<caller organisation="default" name="maja-backend$sources_2.12" conf="provided" rev="2.7.4" rev-constraint-default="2.7.4" rev-constraint-dynamic="2.7.4" callerrev="0.1-SNAPSHOT"/>
+				<metadata-artifact status="no" details="" size="24522" time="0" location="/home/pi/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.10.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.10.2/jackson-databind-2.10.2.pom"/>
+				<caller organisation="default" name="maja-backend$sources_2.12" conf="provided" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="jackson-databind" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="888782" time="0" location="/home/pi/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/srcs/jackson-databind-2.7.4-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.7.4/jackson-databind-2.7.4-sources.jar"/>
+					<artifact name="jackson-databind" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1042729" time="0" location="/home/pi/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/srcs/jackson-databind-2.10.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.10.2/jackson-databind-2.10.2-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
-			<revision name="2.7.0" status="release" pubdate="20160110064704" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+			<revision name="2.10.2" status="release" pubdate="20200105030328" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="6763" time="0" location="/home/pi/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.7.0/jackson-annotations-2.7.0.pom"/>
-				<caller organisation="default" name="maja-backend$sources_2.12" conf="provided" rev="2.7.0" rev-constraint-default="2.7.0" rev-constraint-dynamic="2.7.0" callerrev="0.1-SNAPSHOT"/>
+				<metadata-artifact status="no" details="" size="8106" time="0" location="/home/pi/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.10.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.10.2/jackson-annotations-2.10.2.pom"/>
+				<caller organisation="default" name="maja-backend$sources_2.12" conf="provided" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="jackson-annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="53136" time="0" location="/home/pi/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/srcs/jackson-annotations-2.7.0-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.7.0/jackson-annotations-2.7.0-sources.jar"/>
+					<artifact name="jackson-annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="72260" time="0" location="/home/pi/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/srcs/jackson-annotations-2.10.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.10.2/jackson-annotations-2.10.2-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
-			<revision name="2.7.4" status="release" pubdate="20160429022716" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson-core" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="0">
+			<revision name="2.10.2" status="release" pubdate="20200105030554" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson-core" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="7216" time="0" location="/home/pi/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.7.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.7.4/jackson-core-2.7.4.pom"/>
-				<caller organisation="default" name="maja-backend$sources_2.12" conf="provided" rev="2.7.4" rev-constraint-default="2.7.4" rev-constraint-dynamic="2.7.4" callerrev="0.1-SNAPSHOT"/>
+				<metadata-artifact status="no" details="" size="23761" time="0" location="/home/pi/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.10.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.10.2/jackson-core-2.10.2.pom"/>
+				<caller organisation="default" name="maja-backend$sources_2.12" conf="provided" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="jackson-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="265465" time="0" location="/home/pi/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/srcs/jackson-core-2.7.4-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.7.4/jackson-core-2.7.4-sources.jar"/>
+					<artifact name="jackson-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="364716" time="0" location="/home/pi/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/srcs/jackson-core-2.10.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.10.2/jackson-core-2.10.2-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>

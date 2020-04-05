@@ -7,4 +7,6 @@ target
 
 # IntelliJ files
 .idea/
+# Vertx files
 .vertx/
+./core
