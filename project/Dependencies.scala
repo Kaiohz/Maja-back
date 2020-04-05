@@ -3,7 +3,7 @@ import sbt._
 object Version {
   final val Scala     = "2.12.4"
   final val ScalaTest = "3.0.3"
-  final val Vertx     = "3.5.0"
+  final val Vertx     = "3.9.0"
 }
 
 object Library {
@@ -59,4 +59,12 @@ object Library {
   //non-vert.x deps
   val scalaTest                         = "org.scalatest" %% "scalatest" % Version.ScalaTest % Test
   val junit                             = "junit"         %  "junit"     % "4.12"             % Test
+}
+
+object Config {
+  val conf                              =   "com.typesafe" % "config" % "1.3.1"
+}
+
+object Driver {
+  val mysql = "mysql" % "mysql-connector-java" % "5.1.12" % Provided
 }

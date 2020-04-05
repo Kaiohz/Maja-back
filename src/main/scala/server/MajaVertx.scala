@@ -9,7 +9,6 @@ object MajaVertx {
   private val port: Integer = configuration.getInt("vertx.port")
   var vertx = Vertx.vertx();
 
-
   def start(): Unit ={
     vertx.createHttpServer().requestHandler(MajaRouter.router)
       .listen(port)
