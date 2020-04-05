@@ -9,4 +9,4 @@ target
 .idea/
 # Vertx files
 .vertx/
-./core
+core
