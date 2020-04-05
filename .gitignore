@@ -8,3 +8,4 @@ target
 # IntelliJ files
 .idea/
 .vertx/
+core
