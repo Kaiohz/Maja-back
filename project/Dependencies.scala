@@ -66,5 +66,5 @@ object Config {
 }
 
 object Driver {
-  val mysql = "mysql" % "mysql-connector-java" % "5.1.12" % Provided
+  val mysql = "mysql" % "mysql-connector-java" % "5.1.16"
 }
